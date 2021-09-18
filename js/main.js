@@ -17,6 +17,6 @@ console.log(json)
         translatedOutput.innerText=json.contents.translated
     })
     .catch(err=>{
-        alert("Limit of request 5 reached")
+        alert("Limit of request 5 reached per hour")
     })
 }) 
